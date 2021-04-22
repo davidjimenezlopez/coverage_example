@@ -18,13 +18,13 @@ class TestApp(unittest.TestCase):
 
         self.b = 5
 
-    # def test_0010_add(self):
+    def test_0010_add(self):
 
-    #     "Test add operation"
+        "Test add operation"
 
-    #     result = process_input(self.a, self.b, "add")
+        result = process_input(self.a, self.b, "add")
 
-    #     self.assertEqual(result, 15)
+        self.assertEqual(result, 15)
     
     # def test_0020_subtract(self):
 
